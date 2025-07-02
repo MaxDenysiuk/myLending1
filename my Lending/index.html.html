@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="monetag-site-verification" content="paste-your-verification-code-here" />
+  <title>Online Test - Make Money Online</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 600px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #ccc;
+    }
+    .question {
+      margin: 30px 0 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .options button {
+      background-color: #f7b349;
+      color: #000;
+      border: none;
+      padding: 15px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 6px;
+      width: 80%;
+      max-width: 300px;
+    }
+    .options button:hover {
+      background-color: #ffd285;
+    }
+    .comments {
+      margin-top: 40px;
+      font-size: 14px;
+      text-align: left;
+      background: #222;
+      padding: 20px;
+      border-radius: 8px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .comment {
+      border-bottom: 1px solid #333;
+      padding: 10px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .comment:last-child {
+      border-bottom: none;
+    }
+    .comment img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .comment-content {
+      flex: 1;
+    }
+    .comment-content strong {
+      display: block;
+      color: #f7b349;
+    }
+    .timer {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #f7b349;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Would You Make A Great Career Online And Become A Millionaire By 2025?</h1>
+    <p>Take this FREE test and find out how you can make money on the Internet.</p>
+    <div class="question">How old are you?</div>
+    <div class="options">
+      <button onclick="goToOffer()">Less than 18 years</button>
+      <button onclick="goToOffer()">18–29 years</button>
+      <button onclick="goToOffer()">30–49 years</button>
+      <button onclick="goToOffer()">50–80 years</button>
+    </div>
+
+    <div class="timer" id="timer"></div>
+
+    <div class="comments">
+      <div class="comment">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Kelly Stone">
+        <div class="comment-content">
+          <strong>Kelly Stone</strong>
+          OMG this is soooo true 😱😭
+        </div>
+      </div>
+      <div class="comment">
+        <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Wu Jin">
+        <div class="comment-content">
+          <strong>Wu Jin</strong>
+          🥇TOP
+        </div>
+      </div>
+      <div class="comment">
+        <img src="https://randomuser.me/api/portraits/women/23.jpg" alt="Laura Bellmore">
+        <div class="comment-content">
+          <strong>Laura Bellmore</strong>
+          Just made $50 in one day 💰🔥
+        </div>
+      </div>
+      <div class="comment">
+        <img src="https://randomuser.me/api/portraits/men/51.jpg" alt="Carlos M">
+        <div class="comment-content">
+          <strong>Carlos Mendoza</strong>
+          I thought it was fake but it actually works!!
+        </div>
+      </div>
+      <div class="comment">
+        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Anna R">
+        <div class="comment-content">
+          <strong>Anna Richards</strong>
+          Thanks for this! Just started earning this week 😍
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Redirect to Zeydoo offer -->
+  <script>
+    function goToOffer() {
+      window.location.href = "https://rtjxt.com/link?z=9517035";
+    }
+
+    // Countdown Timer (e.g. limited offer timer)
+    let countdownMinutes = 10;
+    let timeLeft = countdownMinutes * 60;
+    const timerElement = document.getElementById("timer");
+
+    function updateTimer() {
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+      timerElement.textContent = `Limited time offer ends in: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+      if (timeLeft > 0) {
+        timeLeft--;
+        setTimeout(updateTimer, 1000);
+      } else {
+        timerElement.textContent = "The offer has expired. Hurry next time!";
+      }
+    }
+
+    updateTimer();
+  </script>
+
+  <!-- Monetag Script -->
+  <script src="https://go.monetag.com/tag.js?pid=9516983"></script>
+</body>
+</html>
